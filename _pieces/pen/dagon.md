@@ -6,7 +6,7 @@ category_name: "Poems"
 category_slug: "poems"
 images:
   - "dagon eyelevel.jpg"
-  - "logo.jpg"
+  - "dagon-shapeimage_4.png"
 links_to:
   - "pen_upharsin"
   - "pen_aqedah"
@@ -20,7 +20,6 @@ linked_from:
   - "stories_index"
 extra_images:
   - "dagon outside.jpg"
-  - "logo.jpg"
 ---
 
 Dagon (in Arck), 2009, mixed media, 18”H  (on 12” box)

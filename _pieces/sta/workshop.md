@@ -4,8 +4,7 @@ slug: "workshop"
 category: "sta"
 category_name: "Stations"
 category_slug: "stations"
-images:
-  - "logo.jpg"
+images: []
 links_to:
   - "undrian_singular_art_furniture_sculpture_poems_songs_movies"
   - "sta_carryout"
@@ -14,6 +13,8 @@ linked_from:
   - "sta_carryout"
   - "sta_chancel"
   - "sta_index"
+videos:
+  - "https://player.vimeo.com/video/252810077"
 ---
 
 2011, mixed media, dummy approx 24”H

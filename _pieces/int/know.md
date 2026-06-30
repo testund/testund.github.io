@@ -6,7 +6,6 @@ category_name: "Intangibles"
 category_slug: "intangibles"
 images:
   - "hearth.jpg"
-  - "logo.jpg"
 links_to:
   - "int_through"
   - "int_leave"

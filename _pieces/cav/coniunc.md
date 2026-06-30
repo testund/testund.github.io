@@ -7,7 +7,6 @@ category_slug: "platons-cave"
 images:
   - "coniunctio_1.jpg"
   - "coniunctio_2.jpg"
-  - "logo.jpg"
 links_to:
   - "cav_lovehate"
   - "cav_loveseat"
@@ -21,7 +20,7 @@ linked_from:
 extra_images:
   - "coniunctiolamp.jpg"
   - "coniunctiomezuzah.jpg"
-  - "logo.jpg"
+  - "coniunc-1-shapeimage_4.png"
 ---
 
 Coniunctio Sextus, 2004, mixed hardwoods and silk, 50x50” table

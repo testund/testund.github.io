@@ -5,7 +5,9 @@ category: "mech"
 category_name: "Mechanics"
 category_slug: "mechanics"
 images:
-  - "logo.jpg"
+  - "make.jpg"
+  - "klamath pieces.jpg"
+  - "mechanism.jpg"
 links_to:
   - "undrian_singular_art_furniture_sculpture_poems_songs_movies"
   - "mech_movie"
@@ -14,6 +16,8 @@ linked_from:
   - "mech_eat"
   - "mech_index"
   - "mech_movie"
+videos:
+  - "https://player.vimeo.com/video/252805694"
 ---
 
 You’re making a mechanism

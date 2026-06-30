@@ -4,8 +4,7 @@ slug: "chancel"
 category: "sta"
 category_name: "Stations"
 category_slug: "stations"
-images:
-  - "logo.jpg"
+images: []
 links_to:
   - "undrian_singular_art_furniture_sculpture_poems_songs_movies"
   - "sta_workshop"
@@ -14,6 +13,8 @@ linked_from:
   - "sta_index"
   - "sta_school"
   - "sta_workshop"
+videos:
+  - "https://player.vimeo.com/video/252810028"
 ---
 
 2011, mixed media, dummy heads approx 6”H

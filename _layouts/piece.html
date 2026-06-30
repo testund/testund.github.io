@@ -32,9 +32,10 @@ layout: default
     <h1>{{ page.title }}</h1>
   </div>
 
-  <div class="piece-layout">
+  <div class="piece-layout{% if page.category == 'wri' %} piece-layout--prose{% endif %}">
 
-    <!-- Images column -->
+    <!-- Images + Video column -->
+    {% unless page.category == 'wri' %}
     <div class="piece-images">
       {% if page.extra_images %}
         {% assign all_images = page.images | concat: page.extra_images %}
@@ -43,10 +44,20 @@ layout: default
       {% endif %}
       {% assign real_images = "" | split: "" %}
       {% for img in all_images %}
-        {% unless img contains 'logo' or img contains 'shapeimage_1.' or img contains 'shapeimage_2.' or img contains 'shapeimage_3.' %}
+        {% unless img contains 'logo' or img contains 'backgroundimage_1' or img contains 'shapeimage_1.' or img contains 'shapeimage_2.' or img contains 'shapeimage_3.' %}
           {% assign real_images = real_images | push: img %}
         {% endunless %}
       {% endfor %}
+
+      {% if page.videos %}
+        <div class="piece-videos">
+          {% for vid in page.videos %}
+            <div class="video-wrap">
+              <iframe src="{{ vid }}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
 
       {% if real_images.size > 0 %}
         {% assign first_img = real_images | first %}
@@ -65,10 +76,11 @@ layout: default
           {% endfor %}
         </div>
         {% endif %}
-      {% else %}
+      {% elsif page.videos == nil %}
         <div class="piece-thumb-placeholder" style="aspect-ratio:4/3;width:100%">◈</div>
       {% endif %}
     </div>
+    {% endunless %}
 
     <!-- Content column -->
     <div class="piece-content">

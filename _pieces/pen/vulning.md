@@ -6,7 +6,7 @@ category_name: "Poems"
 category_slug: "poems"
 images:
   - "vulning back.jpg"
-  - "logo.jpg"
+  - "vulning-shapeimage_4.png"
 links_to:
   - "pen_penuel"
   - "pen_upharsin"
@@ -20,7 +20,6 @@ linked_from:
 extra_images:
   - "vulning side.jpg"
   - "vulning process.jpg"
-  - "logo.jpg"
 ---
 
 Vulning (for Marcia), 2009, mixed media, 4”H

@@ -7,7 +7,6 @@ category_slug: "build-dwell-think"
 images:
   - "trinity.jpg"
   - "trinity boy.jpg"
-  - "logo.jpg"
 links_to:
   - "bdt_renunciation"
   - "bdt_garage"
@@ -22,7 +21,6 @@ linked_from:
 extra_images:
   - "trinity back.jpg"
   - "trinity right.jpg"
-  - "logo.jpg"
 ---
 
 He spit in the mud to anoint their eyes,

@@ -5,8 +5,8 @@ category: "mir"
 category_name: "Miracles"
 category_slug: "miracles"
 images:
+  - "infirmity-shapeimage_4.png"
   - "infirmity flat.jpg"
-  - "logo.jpg"
 links_to:
   - "mir_hammer"
   - "mir_lazarus"

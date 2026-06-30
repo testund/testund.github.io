@@ -8,7 +8,6 @@ images:
   - "carryout closed.jpg"
   - "carryout tilt.jpg"
   - "carryout flat.jpg"
-  - "logo.jpg"
 links_to:
   - "sta_case"
   - "sta_workshop"
@@ -22,7 +21,6 @@ linked_from:
   - "sta_workshop"
 extra_images:
   - "carryout.jpg"
-  - "logo.jpg"
 ---
 
 Carryout, 2010, mixed media, 20”H (open)

@@ -5,9 +5,9 @@ category: "mir"
 category_name: "Miracles"
 category_slug: "miracles"
 images:
+  - "transfigur-shapeimage_4.png"
   - "transfiguration.jpg"
   - "transfiguration flat.jpg"
-  - "logo.jpg"
 links_to:
   - "mir_still"
   - "mir_hammer"

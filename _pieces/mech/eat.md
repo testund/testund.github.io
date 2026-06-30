@@ -5,7 +5,7 @@ category: "mech"
 category_name: "Mechanics"
 category_slug: "mechanics"
 images:
-  - "logo.jpg"
+  - "eat.jpg"
 links_to:
   - "undrian_singular_art_furniture_sculpture_poems_songs_movies"
   - "mech_make"
@@ -14,6 +14,8 @@ linked_from:
   - "mech_index"
   - "mech_make"
   - "mech_watch"
+videos:
+  - "https://player.vimeo.com/video/252805664"
 ---
 
 Someone hums a monotone

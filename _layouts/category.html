@@ -23,12 +23,19 @@ layout: default
   <div class="piece-grid">
     {% for piece in all_pieces %}
       {% unless piece.slug contains 'index' %}
-      {% assign first_img = piece.images | first %}
+      {% assign first_img = nil %}
+      {% for img in piece.images %}
+        {% unless img == 'logo.jpg' or img == 'backgroundimage_1.jpg' %}
+          {% if first_img == nil %}{% assign first_img = img %}{% endif %}
+        {% endunless %}
+      {% endfor %}
       <a href="{{ piece.url | relative_url }}" class="piece-card">
         {% if first_img %}
           {% assign img_path = '/assets/images/' | append: cat_key | append: '/' | append: first_img %}
           <img class="piece-thumb" src="{{ img_path | relative_url }}" alt="{{ piece.title }}" loading="lazy" onerror="this.parentNode.querySelector('.piece-thumb-placeholder')&&(this.style.display='none',this.parentNode.querySelector('.piece-thumb-placeholder').style.display='flex');this.style.display='none'">
           <div class="piece-thumb-placeholder" style="display:none">◈</div>
+        {% elsif piece.videos %}
+          <div class="piece-thumb-placeholder piece-thumb-video">▶</div>
         {% else %}
           <div class="piece-thumb-placeholder">◈</div>
         {% endif %}

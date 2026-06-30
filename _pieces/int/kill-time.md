@@ -6,7 +6,6 @@ category_name: "Intangibles"
 category_slug: "intangibles"
 images:
   - "sundial.jpg"
-  - "logo.jpg"
 links_to:
   - "int_nation"
   - "int_inequity"

@@ -6,7 +6,6 @@ category_name: "Intangibles"
 category_slug: "intangibles"
 images:
   - "web drops.jpg"
-  - "logo.jpg"
 links_to:
   - "int_attachment"
   - "int_know"

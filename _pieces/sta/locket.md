@@ -8,7 +8,7 @@ images:
   - "locket closed.jpg"
   - "locket side view.jpg"
   - "locket disjoint.jpg"
-  - "logo.jpg"
+  - "locket-shapeimage_4.png"
 links_to:
   - "sta_carousel"
   - "sta_trap"
@@ -21,7 +21,6 @@ linked_from:
   - "sta_trap"
 extra_images:
   - "locket top.jpg"
-  - "logo.jpg"
 ---
 
 Locket, 2010, mixed media, 5”H (closed)

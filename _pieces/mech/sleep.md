@@ -5,7 +5,7 @@ category: "mech"
 category_name: "Mechanics"
 category_slug: "mechanics"
 images:
-  - "logo.jpg"
+  - "sleep.jpg"
 links_to:
   - "undrian_singular_art_furniture_sculpture_poems_songs_movies"
   - "mech_wash"
@@ -14,6 +14,8 @@ linked_from:
   - "mech_index"
   - "mech_run"
   - "mech_wash"
+videos:
+  - "https://player.vimeo.com/video/252805772"
 ---
 
 Melanoma, heart attack.

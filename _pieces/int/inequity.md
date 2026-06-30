@@ -6,7 +6,6 @@ category_name: "Intangibles"
 category_slug: "intangibles"
 images:
   - "garage wall.jpg"
-  - "logo.jpg"
 links_to:
   - "int_kill_time"
   - "int_farthing"

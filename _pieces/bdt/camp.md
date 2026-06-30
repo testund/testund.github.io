@@ -7,7 +7,6 @@ category_slug: "build-dwell-think"
 images:
   - "camp right.jpg"
   - "camp bone man.jpg"
-  - "logo.jpg"
 links_to:
   - "bdt_garage"
   - "bdt_cleft"
@@ -20,7 +19,8 @@ linked_from:
   - "bdt_index"
 extra_images:
   - "camp back.jpg"
-  - "logo.jpg"
+videos:
+  - "https://player.vimeo.com/video/252928119"
 ---
 
 In the morning we walk to the chapel.

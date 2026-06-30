@@ -5,8 +5,9 @@ category: "mir"
 category_name: "Miracles"
 category_slug: "miracles"
 images:
+  - "eucharis-shapeimage_4.png"
+  - "eucharis-shapeimage_5.png"
   - "eucharis flat.jpg"
-  - "logo.jpg"
 links_to:
   - "mir_lazarus"
   - "mir_ichthys"

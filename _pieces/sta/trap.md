@@ -7,7 +7,6 @@ category_slug: "stations"
 images:
   - "trap front close.jpg"
   - "trap front side.jpg"
-  - "logo.jpg"
 links_to:
   - "sta_locket"
   - "sta_flask"
@@ -22,7 +21,6 @@ extra_images:
   - "solely white inside.jpg"
   - "trap crowd process.jpg"
   - "trap back side.jpg"
-  - "logo.jpg"
 ---
 
 Trap, 2010, mixed media, 12”H

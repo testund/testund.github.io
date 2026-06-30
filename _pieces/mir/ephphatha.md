@@ -5,8 +5,8 @@ category: "mir"
 category_name: "Miracles"
 category_slug: "miracles"
 images:
+  - "ephphatha-shapeimage_4.png"
   - "ephphatha flat.jpg"
-  - "logo.jpg"
 links_to:
   - "mir_ichthys"
   - "mir_eremos"

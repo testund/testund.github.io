@@ -20,7 +20,9 @@ extra_images:
   - "crawlspace gun uncover.jpg"
   - "crawlspace melt.jpg"
   - "crawlspace foil face.jpg"
-  - "logo.jpg"
+  - "crawlspace-1-shapeimage_4.png"
+videos:
+  - "https://player.vimeo.com/video/252809876"
 ---
 
 She already has a boyfriend.

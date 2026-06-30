@@ -4,8 +4,7 @@ slug: "fault"
 category: "break"
 category_name: "Breakage"
 category_slug: "breakage"
-images:
-  - "logo.jpg"
+images: []
 links_to:
   - "undrian_singular_art_furniture_sculpture_poems_songs_movies"
   - "break_break"
@@ -14,6 +13,8 @@ linked_from:
   - "break_beam"
   - "break_break"
   - "break_index"
+videos:
+  - "https://player.vimeo.com/video/252797433"
 ---
 
 Fault, mixed media, 2012, figure about 4” tall

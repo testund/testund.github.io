@@ -5,8 +5,8 @@ category: "mir"
 category_name: "Miracles"
 category_slug: "miracles"
 images:
+  - "ichthys-shapeimage_4.png"
   - "ichthys flat.jpg"
-  - "logo.jpg"
 links_to:
   - "mir_eucharis"
   - "mir_ephphatha"

@@ -8,7 +8,6 @@ images:
   - "case open.jpg"
   - "case opening.jpg"
   - "case closed.jpg"
-  - "logo.jpg"
 links_to:
   - "sta_flask"
   - "sta_carryout"
@@ -22,7 +21,6 @@ linked_from:
   - "sta_index"
 extra_images:
   - "case hang.jpg"
-  - "logo.jpg"
 ---
 
 Case, 2010, mixed media, 12”H (open)

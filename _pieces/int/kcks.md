@@ -6,7 +6,6 @@ category_name: "Intangibles"
 category_slug: "intangibles"
 images:
   - "radisson.jpg"
-  - "logo.jpg"
 links_to:
   - "int_schizophrenic"
   - "int_hemlock"

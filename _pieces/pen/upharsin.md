@@ -7,7 +7,6 @@ category_slug: "poems"
 images:
   - "upharsim madman.jpg"
   - "upharsim crack.jpg"
-  - "logo.jpg"
 links_to:
   - "pen_vulning"
   - "pen_dagon"
@@ -21,7 +20,6 @@ linked_from:
 extra_images:
   - "upharsim above.jpg"
   - "upharsim eye.jpg"
-  - "logo.jpg"
 ---
 
 Upharsin, 2009, mixed media, 23”H

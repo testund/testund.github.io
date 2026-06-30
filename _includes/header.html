@@ -13,6 +13,10 @@
         <a href="{{ '/works/break/' | relative_url }}"{% if page.category == 'break' %} class="active"{% endif %}>Breakage</a>
         <a href="{{ '/works/mech/' | relative_url }}"{% if page.category == 'mech' %} class="active"{% endif %}>Mechanics</a>
         <a href="{{ '/works/surf/' | relative_url }}"{% if page.category == 'surf' %} class="active"{% endif %}>Surface</a>
+        <span class="nav-sep">|</span>
+        <a href="{{ '/works/pcv/' | relative_url }}" class="nav-new{% if page.category == 'pcv' %} active{% endif %}">Post-CVA</a>
+        <a href="{{ '/works/wri/' | relative_url }}" class="nav-new{% if page.category == 'wri' %} active{% endif %}">Writing</a>
+        <span class="nav-sep">|</span>
         <a href="{{ '/about/' | relative_url }}"{% if page.url contains '/about' %} class="active"{% endif %}>About</a>
       </div>
     </nav>

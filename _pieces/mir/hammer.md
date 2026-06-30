@@ -5,9 +5,10 @@ category: "mir"
 category_name: "Miracles"
 category_slug: "miracles"
 images:
+  - "hammer-shapeimage_4.png"
+  - "hammer-shapeimage_5.png"
   - "hammer folded.jpg"
   - "hammer fold.jpg"
-  - "logo.jpg"
 links_to:
   - "mir_transfigur"
   - "mir_infirmity"

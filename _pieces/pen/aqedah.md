@@ -7,7 +7,6 @@ category_slug: "poems"
 images:
   - "aqedah burning.jpg"
   - "aqedah.jpg"
-  - "logo.jpg"
 links_to:
   - "pen_dagon"
   - "pen_chairif"
@@ -20,7 +19,7 @@ linked_from:
   - "pen_index"
 extra_images:
   - "aqedah tomb.jpg"
-  - "logo.jpg"
+  - "aqedah-1-shapeimage_4.png"
 ---
 
 Aqedah, 2008, mixed hardwoods, 28”H

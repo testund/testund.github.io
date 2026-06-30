@@ -6,6 +6,9 @@ category_name: "Poems"
 category_slug: "poems"
 images:
   - "logo.jpg"
+  - "eskatos-shapeimage_4.png"
+  - "eskatos-shapeimage_5.png"
+  - "eskatos-shapeimage_6.png"
 links_to:
   - "pen_chairif"
   - "pen_deuce"
@@ -18,7 +21,8 @@ linked_from:
   - "pen_index"
 extra_images:
   - "eskatos flat.jpg"
-  - "logo.jpg"
+  - "eskatos-1-shapeimage_4.png"
+  - "eskatos-1-shapeimage_5.png"
 ---
 
 Eskatos, 2009, mixed media, 8”H

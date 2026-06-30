@@ -9,7 +9,6 @@ images:
   - "school dimmy.jpg"
   - "school lunch.jpg"
   - "school spell.jpg"
-  - "logo.jpg"
 links_to:
   - "undrian_singular_art_furniture_sculpture_poems_songs_movies"
   - "sta_chancel"
@@ -19,6 +18,8 @@ linked_from:
   - "sta_crawlspace"
   - "sta_crawlspace_1"
   - "sta_index"
+videos:
+  - "https://player.vimeo.com/video/252809944"
 ---
 
 2011, still frames from the video,

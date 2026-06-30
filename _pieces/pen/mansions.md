@@ -6,6 +6,8 @@ category_name: "Poems"
 category_slug: "poems"
 images:
   - "logo.jpg"
+  - "mansions-shapeimage_4.png"
+  - "mansions-shapeimage_5.png"
 links_to:
   - "pen_antipatros"
   - "pen_phix"
@@ -20,7 +22,8 @@ extra_images:
   - "mansions son.jpg"
   - "mansions ghost.jpg"
   - "mansions father.jpg"
-  - "logo.jpg"
+videos:
+  - "https://player.vimeo.com/video/252937905"
 ---
 
 Mansions, 2009, mixed media, 21”H

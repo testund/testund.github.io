@@ -6,7 +6,8 @@ category_name: "Poems"
 category_slug: "poems"
 images:
   - "decalog side.jpg"
-  - "logo.jpg"
+  - "decalog-shapeimage_4.png"
+  - "decalog-shapeimage_5.png"
 links_to:
   - "pen_phix"
   - "pen_penuel"
@@ -19,6 +20,8 @@ linked_from:
   - "pen_phix"
 extra_images:
   - "logo.jpg"
+videos:
+  - "https://player.vimeo.com/video/252936340"
 ---
 
 decalog, 2009, mixed media, 7”H

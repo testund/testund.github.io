@@ -4,8 +4,7 @@ slug: "beam"
 category: "break"
 category_name: "Breakage"
 category_slug: "breakage"
-images:
-  - "logo.jpg"
+images: []
 links_to:
   - "undrian_singular_art_furniture_sculpture_poems_songs_movies"
   - "break_fault"
@@ -14,6 +13,8 @@ linked_from:
   - "break_fault"
   - "break_index"
   - "break_pylon"
+videos:
+  - "https://player.vimeo.com/video/252797292"
 ---
 
 Beam, mixed media, 2012, figure about 4” tall

@@ -18,6 +18,10 @@ linked_from:
   - "bdt_ladder_1"
   - "bdt_renunciation"
   - "bdt_trinity_1"
+extra_images:
+  - "renunciation back.jpg"
+  - "renunciation close up.jpg"
+  - "renunciation right.jpg"
 ---
 
 Renunciation, 2010, mixed media, 11”H

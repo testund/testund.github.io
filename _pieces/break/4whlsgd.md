@@ -4,8 +4,7 @@ slug: "4whlsgd"
 category: "break"
 category_name: "Breakage"
 category_slug: "breakage"
-images:
-  - "logo.jpg"
+images: []
 links_to:
   - "undrian_singular_art_furniture_sculpture_poems_songs_movies"
   - "break_sandman"
@@ -14,6 +13,8 @@ linked_from:
   - "break_index"
   - "break_safe"
   - "break_sandman"
+videos:
+  - "https://player.vimeo.com/video/252789863"
 ---
 
 4WHLSGD, mixed media, 2012, cyclist about 4” high

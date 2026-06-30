@@ -7,7 +7,6 @@ category_slug: "build-dwell-think"
 images:
   - "ladder.jpg"
   - "ladder son.jpg"
-  - "logo.jpg"
 links_to:
   - "bdt_dormer"
   - "bdt_renunciation"
@@ -23,7 +22,6 @@ extra_images:
   - "ladder De Chirico.jpg"
   - "ladder closeup.jpg"
   - "ladder chamber.jpg"
-  - "logo.jpg"
 ---
 
 Beyond the son one dry yellow portal

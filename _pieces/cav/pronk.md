@@ -7,7 +7,6 @@ category_slug: "platons-cave"
 images:
   - "pronk.jpg"
   - "kyleagraphy.jpg"
-  - "logo.jpg"
 links_to:
   - "cav_undrian"
   - "cav_hanukiah"

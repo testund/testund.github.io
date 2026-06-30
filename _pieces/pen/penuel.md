@@ -7,7 +7,6 @@ category_slug: "poems"
 images:
   - "penuel side.jpg"
   - "penuel low.jpg"
-  - "logo.jpg"
 links_to:
   - "pen_decalog"
   - "pen_vulning"
@@ -21,7 +20,6 @@ linked_from:
 extra_images:
   - "penuel above.jpg"
   - "penuel process.jpg"
-  - "logo.jpg"
 ---
 
 Penuel, 2009, mixed media, 8”H

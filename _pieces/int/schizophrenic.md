@@ -6,7 +6,6 @@ category_name: "Intangibles"
 category_slug: "intangibles"
 images:
   - "toronado.jpg"
-  - "logo.jpg"
 links_to:
   - "int_leave"
   - "int_kcks"

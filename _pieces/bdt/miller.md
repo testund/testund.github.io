@@ -7,7 +7,6 @@ category_slug: "build-dwell-think"
 images:
   - "miller.jpg"
   - "miller face.jpg"
-  - "logo.jpg"
 links_to:
   - "bdt_corner"
   - "bdt_travel"
@@ -21,7 +20,6 @@ linked_from:
 extra_images:
   - "miller back.jpg"
   - "miller close up.jpg"
-  - "logo.jpg"
 ---
 
 When Doctor Miller cut the melanoma,

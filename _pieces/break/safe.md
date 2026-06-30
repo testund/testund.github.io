@@ -6,7 +6,6 @@ category_name: "Breakage"
 category_slug: "breakage"
 images:
   - "toronto building.jpg"
-  - "logo.jpg"
 links_to:
   - "undrian_singular_art_furniture_sculpture_poems_songs_movies"
   - "break_4whlsgd"

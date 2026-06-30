@@ -5,7 +5,7 @@ category: "mech"
 category_name: "Mechanics"
 category_slug: "mechanics"
 images:
-  - "logo.jpg"
+  - "wash.jpg"
 links_to:
   - "undrian_singular_art_furniture_sculpture_poems_songs_movies"
   - "mech_work"
@@ -14,6 +14,8 @@ linked_from:
   - "mech_index"
   - "mech_sleep"
   - "mech_work"
+videos:
+  - "https://player.vimeo.com/video/252805801"
 ---
 
 He gets up from the bed

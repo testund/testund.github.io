@@ -6,7 +6,6 @@ category_name: "Intangibles"
 category_slug: "intangibles"
 images:
   - "flag truck.jpg"
-  - "logo.jpg"
 links_to:
   - "int_hemlock"
   - "int_kill_time"

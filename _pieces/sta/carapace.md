@@ -19,7 +19,12 @@ linked_from:
 extra_images:
   - "carapace angel burn.jpg"
   - "carapace venus crush.jpg"
-  - "logo.jpg"
+  - "carapace-1-shapeimage_4.png"
+  - "carapace-1-shapeimage_5.png"
+  - "carapace-1-shapeimage_6.png"
+  - "carapace-1-shapeimage_7.png"
+videos:
+  - "https://player.vimeo.com/video/252809671"
 ---
 
 Dug up in the backyard,

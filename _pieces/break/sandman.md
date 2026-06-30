@@ -4,8 +4,7 @@ slug: "sandman"
 category: "break"
 category_name: "Breakage"
 category_slug: "breakage"
-images:
-  - "logo.jpg"
+images: []
 links_to:
   - "undrian_singular_art_furniture_sculpture_poems_songs_movies"
   - "break_pylon"
@@ -14,6 +13,8 @@ linked_from:
   - "break_4whlsgd"
   - "break_index"
   - "break_pylon"
+videos:
+  - "https://player.vimeo.com/video/252797481"
 ---
 
 Sandman, mixed media, 2012, figure about 4” tall

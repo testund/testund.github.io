@@ -7,7 +7,6 @@ category_slug: "build-dwell-think"
 images:
   - "golgotha top.jpg"
   - "golgotha bird.jpg"
-  - "logo.jpg"
 links_to:
   - "bdt_travel"
   - "bdt_proscenium"
@@ -22,7 +21,6 @@ extra_images:
   - "golgotha stars.jpg"
   - "golgotha girl.jpg"
   - "golgotha front.jpg"
-  - "logo.jpg"
 ---
 
 Here he is on the rock that they call Golgotha.

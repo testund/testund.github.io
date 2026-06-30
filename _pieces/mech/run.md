@@ -5,7 +5,10 @@ category: "mech"
 category_name: "Mechanics"
 category_slug: "mechanics"
 images:
-  - "logo.jpg"
+  - "run.jpg"
+  - "run blade.jpg"
+  - "run boy.jpg"
+  - "run corner.jpg"
 links_to:
   - "undrian_singular_art_furniture_sculpture_poems_songs_movies"
   - "mech_sleep"
@@ -21,7 +24,8 @@ extra_images:
   - "run corner.jpg"
   - "run blade.jpg"
   - "run boy.jpg"
-  - "logo.jpg"
+videos:
+  - "https://player.vimeo.com/video/252805738"
 ---
 
 Come back here.

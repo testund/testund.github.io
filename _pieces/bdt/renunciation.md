@@ -7,7 +7,6 @@ category_slug: "build-dwell-think"
 images:
   - "renunciation.jpg"
   - "renunciation hunkypunk.jpg"
-  - "logo.jpg"
 links_to:
   - "bdt_ladder"
   - "bdt_trinity"

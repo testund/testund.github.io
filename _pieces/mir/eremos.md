@@ -5,8 +5,8 @@ category: "mir"
 category_name: "Miracles"
 category_slug: "miracles"
 images:
+  - "eremos-shapeimage_4.png"
   - "eremos flat.jpg"
-  - "logo.jpg"
 links_to:
   - "mir_ephphatha"
   - "mir_zaphthani"

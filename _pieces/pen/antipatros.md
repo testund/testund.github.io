@@ -9,7 +9,6 @@ images:
   - "ap herod angle eye.jpg"
   - "ap graffiti salome.jpg"
   - "ap salome angle eye.jpg"
-  - "logo.jpg"
 links_to:
   - "pen_deuce"
   - "pen_mansions"
@@ -23,7 +22,6 @@ linked_from:
 extra_images:
   - "ap herod back.jpg"
   - "ap salmome back 2.jpg"
-  - "logo.jpg"
 ---
 
 Antipatros, 2009, mixed media,10”H (at left in Arck)

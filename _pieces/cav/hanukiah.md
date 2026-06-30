@@ -9,7 +9,6 @@ images:
   - "dailyplanet.jpg"
   - "alchemy box.jpg"
   - "weeklylamp.jpg"
-  - "logo.jpg"
 links_to:
   - "cav_pronk"
   - "cav_lovehate"

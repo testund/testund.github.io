@@ -9,7 +9,6 @@ images:
   - "carousel people.jpg"
   - "carousel gears.jpg"
   - "carousel luke.jpg"
-  - "logo.jpg"
 links_to:
   - "sta_flat"
   - "sta_locket"
@@ -24,7 +23,9 @@ linked_from:
 extra_images:
   - "carousel peter.jpg"
   - "carousel bartholomew.jpg"
-  - "logo.jpg"
+videos:
+  - "https://player.vimeo.com/video/252809388"
+  - "https://player.vimeo.com/video/253169980"
 ---
 
 Carousel, 2010, mixed media, 11”H

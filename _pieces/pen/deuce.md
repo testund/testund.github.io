@@ -7,7 +7,8 @@ category_slug: "poems"
 images:
   - "deuce sarcophagus.jpg"
   - "deuce triptych.jpg"
-  - "logo.jpg"
+  - "deuce-shapeimage_4.png"
+  - "deuce-shapeimage_5.png"
 links_to:
   - "pen_eskatos"
   - "pen_antipatros"
@@ -21,7 +22,8 @@ linked_from:
 extra_images:
   - "deuce back.jpg"
   - "deuce pulley.jpg"
-  - "logo.jpg"
+videos:
+  - "https://player.vimeo.com/video/252938399"
 ---
 
 Deuce, 2009, mixed media,17”H

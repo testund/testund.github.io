@@ -7,7 +7,7 @@ category_slug: "platons-cave"
 images:
   - "stools.jpg"
   - "dictionary stand.jpg"
-  - "logo.jpg"
+  - "stools-shapeimage_4.png"
 links_to:
   - "cav_caryatab"
   - "cav_dining"

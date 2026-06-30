@@ -6,7 +6,6 @@ category_name: "Intangibles"
 category_slug: "intangibles"
 images:
   - "tall tree.jpg"
-  - "logo.jpg"
 links_to:
   - "int_inequity"
   - "int_attachment"

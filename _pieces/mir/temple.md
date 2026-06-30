@@ -6,7 +6,6 @@ category_name: "Miracles"
 category_slug: "miracles"
 images:
   - "temple panel.jpg"
-  - "logo.jpg"
 links_to:
   - "mir_tletha"
   - "mir_still"

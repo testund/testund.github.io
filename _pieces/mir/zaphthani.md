@@ -6,7 +6,6 @@ category_name: "Miracles"
 category_slug: "miracles"
 images:
   - "zaphthani.jpg"
-  - "logo.jpg"
 links_to:
   - "mir_eremos"
   - "mir_tletha"

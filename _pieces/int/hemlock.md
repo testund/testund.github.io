@@ -6,7 +6,6 @@ category_name: "Intangibles"
 category_slug: "intangibles"
 images:
   - "pleasant lake.jpg"
-  - "logo.jpg"
 links_to:
   - "int_kcks"
   - "int_nation"

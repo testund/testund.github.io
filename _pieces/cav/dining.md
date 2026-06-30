@@ -8,7 +8,6 @@ images:
   - "diningroom.jpg"
   - "endtables.jpg"
   - "media cabinet.jpg"
-  - "logo.jpg"
 links_to:
   - "cav_stools"
   - "cav_saulito"

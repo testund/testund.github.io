@@ -6,7 +6,6 @@ category_name: "Intangibles"
 category_slug: "intangibles"
 images:
   - "leave.jpg"
-  - "logo.jpg"
 links_to:
   - "int_know"
   - "int_schizophrenic"

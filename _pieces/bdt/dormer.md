@@ -7,7 +7,6 @@ category_slug: "build-dwell-think"
 images:
   - "dormer.jpg"
   - "dormer head.jpg"
-  - "logo.jpg"
 links_to:
   - "bdt_proscenium"
   - "bdt_ladder"
@@ -23,7 +22,6 @@ extra_images:
   - "dormer back.jpg"
   - "dormer child.jpg"
   - "dormer man.jpg"
-  - "logo.jpg"
 ---
 
 In the crawl space hides a boy who can’t let a word be heard.

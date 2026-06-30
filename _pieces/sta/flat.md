@@ -7,7 +7,6 @@ category_slug: "stations"
 images:
   - "flat above.jpg"
   - "flat lounge.jpg"
-  - "logo.jpg"
 links_to:
   - "sta_tin"
   - "sta_carousel"
@@ -20,7 +19,8 @@ linked_from:
   - "sta_tin"
 extra_images:
   - "flat figures.jpg"
-  - "logo.jpg"
+videos:
+  - "https://player.vimeo.com/video/252809463"
 ---
 
 Flat, 2011, mixed media, 6”H

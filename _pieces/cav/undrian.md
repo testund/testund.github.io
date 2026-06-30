@@ -7,7 +7,6 @@ category_slug: "platons-cave"
 images:
   - "unfoldingchair.jpg"
   - "undrian.jpg"
-  - "logo.jpg"
 links_to:
   - "cav_saulito"
   - "cav_pronk"
@@ -22,6 +21,8 @@ linked_from:
   - "undrian_singular_art_furniture_sculpture_poems_songs_movies"
 extra_images:
   - "logo.jpg"
+videos:
+  - "https://player.vimeo.com/video/252944399"
 ---
 
 Unfolding Chair, 2005, mixed media,  40”H

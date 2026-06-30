@@ -7,7 +7,6 @@ category_slug: "build-dwell-think"
 images:
   - "corner.jpg"
   - "corner drain.jpg"
-  - "logo.jpg"
 links_to:
   - "bdt_cleft"
   - "bdt_miller"
@@ -22,7 +21,6 @@ extra_images:
   - "corner back.jpg"
   - "corner left.jpg"
   - "corner front.jpg"
-  - "logo.jpg"
 ---
 
 At the counter in the Cozy

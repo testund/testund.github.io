@@ -5,8 +5,9 @@ category: "mir"
 category_name: "Miracles"
 category_slug: "miracles"
 images:
+  - "lazarus-shapeimage_4.png"
+  - "lazarus-shapeimage_5.png"
   - "lazarus flat.jpg"
-  - "logo.jpg"
 links_to:
   - "mir_infirmity"
   - "mir_eucharis"

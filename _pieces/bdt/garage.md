@@ -7,7 +7,6 @@ category_slug: "build-dwell-think"
 images:
   - "garage low.jpg"
   - "garage floor.jpg"
-  - "logo.jpg"
 links_to:
   - "bdt_trinity"
   - "bdt_camp"
@@ -23,7 +22,6 @@ extra_images:
   - "garage at 4am.jpg"
   - "garage left.jpg"
   - "garage right.jpg"
-  - "logo.jpg"
 ---
 
 Where the dirt road narrows there’s an old garage

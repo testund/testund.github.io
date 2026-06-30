@@ -7,7 +7,6 @@ category_slug: "platons-cave"
 images:
   - "shelflife.jpg"
   - "lovehateseat.jpg"
-  - "logo.jpg"
 links_to:
   - "cav_coniunc"
   - "cav_caryatab"

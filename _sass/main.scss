@@ -1,13 +1,14 @@
 // ─── Tokens ───────────────────────────────────────────────────────────────────
-$bg:        #0a0a0a;
-$bg-card:   #141414;
-$bg-hover:  #1e1e1e;
-$border:    #2a2a2a;
-$text:      #d8d0c8;
-$text-dim:  #7a7268;
-$accent:    #c8a96e;     // warm gold – matches the aged wood/craft aesthetic
-$accent2:   #8fa88a;     // muted sage
-$white:     #f0ece6;
+$bg:        #0d0b09;
+$bg-card:   #161310;
+$bg-hover:  #211c15;
+$border:    #3a2f1f;
+$text:      #ddd3ba;
+$text-dim:  #7d6e55;
+$accent:    #f08030;     // hot terracotta
+$accent2:   #48c878;     // electric sage
+$accent3:   #7ab8e8;     // cool sky — for variety
+$white:     #f5ecd8;     // warm cream
 $font-body: 'Georgia', 'Times New Roman', serif;
 $font-sans: 'Helvetica Neue', Arial, sans-serif;
 
@@ -57,8 +58,8 @@ img {
   padding: 1.2rem 0;
   position: sticky;
   top: 0;
-  background: rgba(10,10,10,0.96);
-  backdrop-filter: blur(6px);
+  background: rgba(12,10,8,0.97);
+  backdrop-filter: blur(8px);
   z-index: 100;
 
   .header-inner {
@@ -83,7 +84,7 @@ img {
   nav {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.3rem 1.2rem;
+    gap: 0.3rem 1.1rem;
     font-family: $font-sans;
     font-size: 0.78rem;
     letter-spacing: 0.1em;
@@ -92,6 +93,17 @@ img {
     a {
       color: $text-dim;
       &:hover, &.active { color: $accent; }
+    }
+
+    .nav-sep {
+      color: $border;
+      user-select: none;
+      letter-spacing: 0;
+    }
+
+    .nav-new {
+      color: $accent2;
+      &:hover, &.active { color: lighten($accent2, 12%); }
     }
 
     .nav-toggle {
@@ -115,7 +127,7 @@ img {
         flex-direction: column;
         width: 100%;
         padding-top: 0.8rem;
-        gap: 0.6rem;
+        gap: 0.5rem;
 
         &.open { display: flex; }
       }
@@ -128,7 +140,7 @@ img {
 .hero {
   padding: 6rem 1.5rem 4rem;
   text-align: center;
-  background: radial-gradient(ellipse at 50% 0%, #1a1510 0%, $bg 70%);
+  background: radial-gradient(ellipse at 50% 0%, #1e1408 0%, $bg 75%);
 
   h1 {
     font-family: $font-sans;
@@ -151,11 +163,12 @@ img {
 
   .hero-tagline {
     font-size: 1.15rem;
-    color: $text;
+    color: $accent;
     max-width: 600px;
     margin: 0 auto 3rem;
     font-style: italic;
     line-height: 1.8;
+    opacity: 0.85;
   }
 }
 
@@ -170,45 +183,78 @@ img {
 
   .category-card {
     background: $bg-card;
-    padding: 2rem 1.8rem;
-    transition: background 0.2s;
+    transition: background 0.2s, box-shadow 0.2s;
     text-decoration: none;
     display: block;
+    overflow: hidden;
+    border-bottom: 2px solid transparent;
 
     &:hover {
       background: $bg-hover;
-      .cat-arrow { transform: translateX(4px); }
+      border-bottom-color: $accent;
+      .cat-arrow { transform: translateX(4px); color: $accent; }
+      .cat-thumb img { transform: scale(1.03); }
+    }
+
+    .cat-thumb {
+      width: 100%;
+      aspect-ratio: 4/3;
+      overflow: hidden;
+      background: #0e0c09;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        display: block;
+        transition: transform 0.4s ease;
+      }
+    }
+
+    .cat-thumb--empty {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      color: $border;
+    }
+
+    .cat-card-body {
+      padding: 1.2rem 1.5rem 1.5rem;
     }
 
     .cat-name {
       font-family: $font-sans;
-      font-size: 0.72rem;
+      font-size: 0.7rem;
       letter-spacing: 0.15em;
       text-transform: uppercase;
       color: $accent;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.4rem;
     }
 
     h3 {
-      font-size: 1.3rem;
+      font-size: 1.15rem;
       font-weight: 400;
       color: $white;
-      margin-bottom: 0.6rem;
+      margin-bottom: 0.4rem;
     }
 
     p {
-      font-size: 0.88rem;
+      font-size: 0.85rem;
       color: $text-dim;
-      line-height: 1.6;
+      line-height: 1.5;
     }
 
     .cat-arrow {
       display: inline-block;
-      margin-top: 0.8rem;
+      margin-top: 0.7rem;
       color: $accent;
       transition: transform 0.2s;
       font-family: $font-sans;
-      font-size: 0.8rem;
+      font-size: 0.78rem;
     }
   }
 }
@@ -235,20 +281,25 @@ img {
     .piece-thumb {
       width: 100%;
       aspect-ratio: 4/3;
-      object-fit: cover;
-      background: #111;
+      object-fit: contain;
+      background: #0e0c09;
     }
 
     .piece-thumb-placeholder {
       width: 100%;
       aspect-ratio: 4/3;
-      background: linear-gradient(135deg, #111 0%, #1a1a1a 100%);
+      background: linear-gradient(135deg, #141009 0%, #1e1810 100%);
       display: flex;
       align-items: center;
       justify-content: center;
       font-family: $font-sans;
       font-size: 2rem;
       color: $border;
+
+      &.piece-thumb-video {
+        color: $accent;
+        font-size: 2.5rem;
+      }
     }
 
     .piece-info {
@@ -266,7 +317,7 @@ img {
         font-size: 0.7rem;
         letter-spacing: 0.1em;
         text-transform: uppercase;
-        color: $text-dim;
+        color: $accent2;
       }
     }
   }
@@ -314,6 +365,27 @@ img {
   line-height: 1.7;
 }
 
+// ─── Video Embed ──────────────────────────────────────────────────────────────
+.piece-videos {
+  margin-bottom: 1rem;
+
+  .video-wrap {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; // 16:9
+    background: #000;
+    margin-bottom: 0.75rem;
+
+    iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  }
+}
+
 // ─── Piece Page ───────────────────────────────────────────────────────────────
 .piece-layout {
   display: grid;
@@ -325,11 +397,35 @@ img {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
+
+  // Writing/prose: single centered column, reading-optimized
+  &--prose {
+    display: block;
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .piece-content {
+      .piece-meta { text-align: center; }
+    }
+
+    .piece-body {
+      font-size: 1.05rem;
+      line-height: 1.65;
+      color: $text;
+      white-space: pre-wrap;
+      font-family: $font-body;
+
+      p, & { margin-bottom: 0.8em; }
+    }
+  }
 }
 
 .piece-images {
   .main-image {
-    width: 100%;
+    display: block;
+    max-width: 100%;
+    height: auto;
     border: 1px solid $border;
     margin-bottom: 0.8rem;
     cursor: zoom-in;
@@ -427,7 +523,8 @@ img {
   img {
     max-width: 90vw;
     max-height: 90vh;
-    object-fit: contain;
+    width: auto;
+    height: auto;
     border: 1px solid $border;
   }
 }

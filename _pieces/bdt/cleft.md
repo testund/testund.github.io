@@ -7,7 +7,6 @@ category_slug: "build-dwell-think"
 images:
   - "cleft.jpg"
   - "cleft peak.jpg"
-  - "logo.jpg"
 links_to:
   - "bdt_camp"
   - "bdt_corner"
@@ -24,7 +23,6 @@ extra_images:
   - "cleft boy.jpg"
   - "cleft lair.jpg"
   - "cleft back.jpg"
-  - "logo.jpg"
 ---
 
 Got a hard candy stuck blue in his throat.

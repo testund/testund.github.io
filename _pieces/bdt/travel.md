@@ -7,7 +7,6 @@ category_slug: "build-dwell-think"
 images:
   - "travel.jpg"
   - "travel bird.jpg"
-  - "logo.jpg"
 links_to:
   - "bdt_miller"
   - "bdt_shroud"
@@ -22,7 +21,6 @@ extra_images:
   - "travel back.jpg"
   - "travel closeup.jpg"
   - "travel left.jpg"
-  - "logo.jpg"
 ---
 
 The sun climbs and sinks

@@ -7,7 +7,6 @@ category_slug: "stations"
 images:
   - "basin white lord.jpg"
   - "basin side.jpg"
-  - "logo.jpg"
 links_to:
   - "sta_carapace"
   - "sta_tin"
@@ -22,7 +21,8 @@ extra_images:
   - "basin empty.jpg"
   - "basin family.jpg"
   - "basin dark lord.jpg"
-  - "logo.jpg"
+videos:
+  - "https://player.vimeo.com/video/252809761"
 ---
 
 Basin, 2011, mixed media, 6”H (pieces are magnetic)

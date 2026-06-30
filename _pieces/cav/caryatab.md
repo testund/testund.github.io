@@ -7,7 +7,6 @@ category_slug: "platons-cave"
 images:
   - "caryatable.jpg"
   - "arck.jpg"
-  - "logo.jpg"
 links_to:
   - "cav_loveseat"
   - "cav_stools"

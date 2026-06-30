@@ -8,7 +8,6 @@ images:
   - "tin open.jpg"
   - "tin trays out.jpg"
   - "tin contents.jpg"
-  - "logo.jpg"
 links_to:
   - "sta_basin"
   - "sta_flat"
@@ -22,7 +21,6 @@ linked_from:
 extra_images:
   - "tin spread out.jpg"
   - "tin ichthys.jpg"
-  - "logo.jpg"
 ---
 
 Tin, 2011, mixed media, 8”H

@@ -7,7 +7,6 @@ category_slug: "poems"
 images:
   - "phix front.jpg"
   - "phix back right 2.jpg"
-  - "logo.jpg"
 links_to:
   - "pen_mansions"
   - "pen_decalog"
@@ -20,6 +19,8 @@ linked_from:
   - "pen_phix_1"
 extra_images:
   - "logo.jpg"
+videos:
+  - "https://player.vimeo.com/video/252937027"
 ---
 
 Phix, 2009, mixed media, 13”H

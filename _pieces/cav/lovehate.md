@@ -8,7 +8,7 @@ images:
   - "lovehatedeath.jpg"
   - "venus lamp.jpg"
   - "fivebyfive.jpg"
-  - "logo.jpg"
+  - "lovehate-shapeimage_4.png"
 links_to:
   - "cav_hanukiah"
   - "cav_coniunc"

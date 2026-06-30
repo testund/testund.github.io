@@ -14,81 +14,74 @@ layout: default
 
   <p class="section-title">Works</p>
   <div class="category-grid">
-    <a href="{{ '/works/cav/' | relative_url }}" class="category-card">
-      <p class="cat-name">2002 – 2008</p>
-      <h3>Plato's Cave</h3>
-      <p>Singular furniture pieces exploring the Platonic allegory of shadow and form.</p>
-      <span class="cat-arrow">Explore →</span>
-    </a>
-    <a href="{{ '/works/bdt/' | relative_url }}" class="category-card">
-      <p class="cat-name">Sculpture</p>
-      <h3>Build Dwell Think</h3>
-      <p>Objects exploring architecture, dwelling, and the act of making.</p>
-      <span class="cat-arrow">Explore →</span>
-    </a>
-    <a href="{{ '/works/sta/' | relative_url }}" class="category-card">
-      <p class="cat-name">2011 — Sculpture & Film</p>
-      <h3>Stations</h3>
-      <p>A series of sculptures and movies marking stations of an imagined life.</p>
-      <span class="cat-arrow">Explore →</span>
-    </a>
-    <a href="{{ '/works/int/' | relative_url }}" class="category-card">
-      <p class="cat-name">Songs</p>
-      <h3>Intangibles</h3>
-      <p>Songs with no physical object — pure sound as material.</p>
-      <span class="cat-arrow">Explore →</span>
-    </a>
-    <a href="{{ '/works/mir/' | relative_url }}" class="category-card">
-      <p class="cat-name">Sculpture</p>
-      <h3>Miracles</h3>
-      <p>Pieces exploring miracle, transcendence, and the inexplicable.</p>
-      <span class="cat-arrow">Explore →</span>
-    </a>
-    <a href="{{ '/works/pen/' | relative_url }}" class="category-card">
-      <p class="cat-name">Poetry</p>
-      <h3>Poems</h3>
-      <p>Words as material — verse and song lyric.</p>
-      <span class="cat-arrow">Explore →</span>
-    </a>
-    <a href="{{ '/works/break/' | relative_url }}" class="category-card">
-      <p class="cat-name">Sculpture</p>
-      <h3>Breakage</h3>
-      <p>Works exploring fracture, fault, and the beauty of broken things.</p>
-      <span class="cat-arrow">Explore →</span>
-    </a>
-    <a href="{{ '/works/mech/' | relative_url }}" class="category-card">
-      <p class="cat-name">Film & Object</p>
-      <h3>Mechanics</h3>
-      <p>The mechanics of daily life: eat, sleep, work, make, watch, run.</p>
-      <span class="cat-arrow">Explore →</span>
-    </a>
-    <a href="{{ '/works/surf/' | relative_url }}" class="category-card">
-      <p class="cat-name">20 works</p>
-      <h3>Surface</h3>
-      <p>A series of 20 patch works — color and texture as sole subject.</p>
-      <span class="cat-arrow">Explore →</span>
-    </a>
+
+    {% assign categories = "cav,bdt,sta,int,mir,pen,break,mech,surf,pcv,wri" | split: "," %}
+    {% assign cat_labels = "2002–2008,Sculpture,2011 — Sculpture & Film,Songs,Sculpture,Poetry,Sculpture,Film & Object,20 works,New Work,New Work" | split: "," %}
+    {% assign cat_names = "Plato's Cave,Build Dwell Think,Stations,Intangibles,Miracles,Poems,Breakage,Mechanics,Surface,Post-CVA Work,Writing" | split: "," %}
+    {% assign cat_descs = "Singular furniture pieces exploring the Platonic allegory of shadow and form.|Objects exploring architecture, dwelling, and the act of making.|Sculptures and movies marking stations of an imagined life.|Songs with no physical object — pure sound as material.|Pieces exploring miracle, transcendence, and the inexplicable.|Words as material — verse and song lyric.|Works exploring fracture, fault, and the beauty of broken things.|The mechanics of daily life: eat, sleep, work, make, watch, run.|A series of 20 patch works — color and texture as sole subject.|Furniture, objects, and photographs made after a stroke — new hands, new work.|Essays and poems written after a stroke — language as both subject and medium." | split: "|" %}
+
+    {% for cat in categories %}
+      {% assign idx = forloop.index0 %}
+      {% assign cat_pieces = site.pieces | where: "category", cat %}
+      {% assign first_piece = nil %}
+      {% assign thumb_src = nil %}
+      {% for p in cat_pieces %}
+        {% if first_piece == nil %}
+          {% for img in p.images %}
+            {% unless img == 'logo.jpg' or img == 'backgroundimage_1.jpg' %}
+              {% if first_piece == nil %}
+                {% assign first_piece = p %}
+                {% assign thumb_src = '/assets/images/' | append: cat | append: '/' | append: img %}
+              {% endif %}
+            {% endunless %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+
+      <a href="{{ '/works/' | append: cat | append: '/' | relative_url }}" class="category-card">
+        {% if thumb_src %}
+          <div class="cat-thumb">
+            <img src="{{ thumb_src | relative_url }}" alt="{{ cat_names[idx] }}" loading="lazy">
+          </div>
+        {% else %}
+          <div class="cat-thumb cat-thumb--empty">◈</div>
+        {% endif %}
+        <div class="cat-card-body">
+          <p class="cat-name">{{ cat_labels[idx] }}</p>
+          <h3>{{ cat_names[idx] }}</h3>
+          <p>{{ cat_descs[idx] }}</p>
+          <span class="cat-arrow">Explore →</span>
+        </div>
+      </a>
+    {% endfor %}
+
   </div>
 
   <p class="section-title">Also</p>
   <div class="category-grid">
     <a href="{{ '/about/' | relative_url }}" class="category-card">
-      <p class="cat-name">Tim Van Hook</p>
-      <h3>About the Artist</h3>
-      <p>From Nintendo chips to the studio in Atherton.</p>
-      <span class="cat-arrow">Read →</span>
+      <div class="cat-card-body">
+        <p class="cat-name">Tim Van Hook</p>
+        <h3>About the Artist</h3>
+        <p>From Nintendo chips to the studio in Atherton.</p>
+        <span class="cat-arrow">Read →</span>
+      </div>
     </a>
     <a href="http://www.youtube.com/user/undrian" target="_blank" rel="noopener" class="category-card">
-      <p class="cat-name">External</p>
-      <h3>YouTube</h3>
-      <p>Films and movie works.</p>
-      <span class="cat-arrow">Watch →</span>
+      <div class="cat-card-body">
+        <p class="cat-name">External</p>
+        <h3>YouTube</h3>
+        <p>Films and movie works.</p>
+        <span class="cat-arrow">Watch →</span>
+      </div>
     </a>
     <a href="mailto:libraryofbabel@me.com?subject=undrian.com" class="category-card">
-      <p class="cat-name">Get in touch</p>
-      <h3>Contact</h3>
-      <p>Comments are welcome.</p>
-      <span class="cat-arrow">Email →</span>
+      <div class="cat-card-body">
+        <p class="cat-name">Get in touch</p>
+        <h3>Contact</h3>
+        <p>Comments are welcome.</p>
+        <span class="cat-arrow">Email →</span>
+      </div>
     </a>
   </div>
 

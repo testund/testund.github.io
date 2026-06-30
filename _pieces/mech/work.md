@@ -5,7 +5,7 @@ category: "mech"
 category_name: "Mechanics"
 category_slug: "mechanics"
 images:
-  - "logo.jpg"
+  - "work close.jpg"
 links_to:
   - "undrian_singular_art_furniture_sculpture_poems_songs_movies"
   - "mech_drink"
@@ -14,6 +14,8 @@ linked_from:
   - "mech_drink"
   - "mech_index"
   - "mech_wash"
+videos:
+  - "https://player.vimeo.com/video/252807669"
 ---
 
 Repeating:

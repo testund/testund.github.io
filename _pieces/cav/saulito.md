@@ -6,6 +6,8 @@ category_name: "Plato's Cave"
 category_slug: "platons-cave"
 images:
   - "logo.jpg"
+  - "saulito-shapeimage_4.png"
+  - "saulito-shapeimage_5.png"
 links_to:
   - "cav_dining"
   - "cav_undrian"

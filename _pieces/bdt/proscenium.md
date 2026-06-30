@@ -7,7 +7,6 @@ category_slug: "build-dwell-think"
 images:
   - "proscenium.jpg"
   - "proscenium bed.jpg"
-  - "logo.jpg"
 links_to:
   - "bdt_shroud"
   - "bdt_dormer"
@@ -23,7 +22,6 @@ extra_images:
   - "proscenium down.jpg"
   - "proscenium up.jpg"
   - "proscenium side.jpg"
-  - "logo.jpg"
 ---
 
 There once was a boy tall and fair.
