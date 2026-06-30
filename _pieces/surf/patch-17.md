@@ -1,0 +1,40 @@
+---
+title: "Surface Patch 17"
+slug: "patch-17"
+category: "surf"
+category_name: "Surface"
+category_slug: "surface"
+images:
+  - "backgroundimage_1.jpg"
+  - "shapeimage_4.png"
+  - "shapeimage_5.png"
+  - "shapeimage_6.png"
+  - "shapeimage_7.png"
+  - "shapeimage_8.png"
+  - "shapeimage_9.png"
+  - "shapeimage_10.png"
+  - "shapeimage_11.png"
+  - "shapeimage_12.png"
+  - "shapeimage_13.png"
+  - "shapeimage_14.png"
+  - "shapeimage_15.png"
+links_to:
+  - "surf_patch_2"
+  - "surf_patch_16"
+  - "surf_patch_12"
+  - "surf_patch_1"
+  - "surf_patch_18"
+  - "surf_patch_5"
+  - "surf_patch_8"
+  - "undrian_singular_art_furniture_sculpture_poems_songs_movies"
+linked_from:
+  - "surf_patch_1"
+  - "surf_patch_12"
+  - "surf_patch_16"
+  - "surf_patch_18"
+  - "surf_patch_2"
+  - "surf_patch_5"
+  - "surf_patch_8"
+---
+
+

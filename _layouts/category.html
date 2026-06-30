@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+{% assign cat_key = page.category %}
+{% assign all_pieces = site.pieces | where: "category", cat_key %}
+
+<div class="page-wrap">
+  <div class="page-header">
+    <p class="breadcrumb">
+      <a href="{{ '/' | relative_url }}">Undrian</a>
+      <span>›</span>
+      Works
+    </p>
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}
+    <p class="page-subtitle">{{ page.description }}</p>
+    {% endif %}
+  </div>
+</div>
+
+<div class="site-wrap">
+  <div class="piece-grid">
+    {% for piece in all_pieces %}
+      {% unless piece.slug contains 'index' %}
+      {% assign first_img = piece.images | first %}
+      <a href="{{ piece.url | relative_url }}" class="piece-card">
+        {% if first_img %}
+          {% assign img_path = '/assets/images/' | append: cat_key | append: '/' | append: first_img %}
+          <img class="piece-thumb" src="{{ img_path | relative_url }}" alt="{{ piece.title }}" loading="lazy" onerror="this.parentNode.querySelector('.piece-thumb-placeholder')&&(this.style.display='none',this.parentNode.querySelector('.piece-thumb-placeholder').style.display='flex');this.style.display='none'">
+          <div class="piece-thumb-placeholder" style="display:none">◈</div>
+        {% else %}
+          <div class="piece-thumb-placeholder">◈</div>
+        {% endif %}
+        <div class="piece-info">
+          <h3>{{ piece.title }}</h3>
+          <p class="piece-cat">{{ piece.category_name }}</p>
+        </div>
+      </a>
+      {% endunless %}
+    {% endfor %}
+  </div>
+</div>

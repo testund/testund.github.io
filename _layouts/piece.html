@@ -1,0 +1,98 @@
+---
+layout: default
+---
+
+{% assign cat_key = page.category %}
+{% assign cat_pieces = site.pieces | where: "category", cat_key | where_exp: "p", "p.slug != 'index'" %}
+{% assign piece_count = cat_pieces | size %}
+
+{% comment %} Find prev/next pieces in same category {% endcomment %}
+{% assign prev_piece = nil %}
+{% assign next_piece = nil %}
+{% assign found = false %}
+{% for p in cat_pieces %}
+  {% if found and next_piece == nil %}
+    {% assign next_piece = p %}
+  {% endif %}
+  {% if p.slug == page.slug %}
+    {% assign found = true %}
+  {% endif %}
+  {% unless found %}
+    {% assign prev_piece = p %}
+  {% endunless %}
+{% endfor %}
+
+<div class="page-wrap">
+  <div class="page-header">
+    <p class="breadcrumb">
+      <a href="{{ '/' | relative_url }}">Undrian</a>
+      <span>›</span>
+      <a href="{{ '/works/' | append: cat_key | append: '/' | relative_url }}">{{ page.category_name }}</a>
+    </p>
+    <h1>{{ page.title }}</h1>
+  </div>
+
+  <div class="piece-layout">
+
+    <!-- Images column -->
+    <div class="piece-images">
+      {% if page.extra_images %}
+        {% assign all_images = page.images | concat: page.extra_images %}
+      {% else %}
+        {% assign all_images = page.images %}
+      {% endif %}
+      {% assign real_images = "" | split: "" %}
+      {% for img in all_images %}
+        {% unless img contains 'logo' or img contains 'shapeimage_1.' or img contains 'shapeimage_2.' or img contains 'shapeimage_3.' %}
+          {% assign real_images = real_images | push: img %}
+        {% endunless %}
+      {% endfor %}
+
+      {% if real_images.size > 0 %}
+        {% assign first_img = real_images | first %}
+        {% assign img_src = '/assets/images/' | append: cat_key | append: '/' | append: first_img %}
+        <img class="main-image" id="main-img" src="{{ img_src | relative_url }}" alt="{{ page.title }}"
+             onclick="openLightbox(this.src)">
+
+        {% if real_images.size > 1 %}
+        <div class="thumb-strip">
+          {% for img in real_images %}
+            {% assign tsrc = '/assets/images/' | append: cat_key | append: '/' | append: img %}
+            <img src="{{ tsrc | relative_url }}" alt="{{ page.title }} detail"
+                 loading="lazy"
+                 onclick="switchImage('{{ tsrc | relative_url }}', this)"
+                 {% if forloop.first %}class="active"{% endif %}>
+          {% endfor %}
+        </div>
+        {% endif %}
+      {% else %}
+        <div class="piece-thumb-placeholder" style="aspect-ratio:4/3;width:100%">◈</div>
+      {% endif %}
+    </div>
+
+    <!-- Content column -->
+    <div class="piece-content">
+      <p class="piece-meta">
+        <a href="{{ '/works/' | append: cat_key | append: '/' | relative_url }}">{{ page.category_name }}</a>
+      </p>
+
+      <div class="piece-body">
+        {{ content }}
+      </div>
+
+      <!-- Piece navigation -->
+      <div class="piece-nav">
+        {% if prev_piece %}
+          <a href="{{ prev_piece.url | relative_url }}">← {{ prev_piece.title }}</a>
+        {% else %}
+          <span></span>
+        {% endif %}
+        {% if next_piece %}
+          <a href="{{ next_piece.url | relative_url }}">{{ next_piece.title }} →</a>
+        {% endif %}
+      </div>
+    </div>
+
+  </div>
+
+</div>

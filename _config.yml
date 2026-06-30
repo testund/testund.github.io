@@ -1,0 +1,48 @@
+title: Undrian
+description: "Singular art furniture, sculpture, poems, songs, and movies"
+baseurl: ""
+url: "https://undrian.com"
+
+plugins:
+  - jekyll-redirect-from
+
+# Collections
+collections:
+  pieces:
+    output: true
+    permalink: /works/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: pieces
+    values:
+      layout: piece
+
+# Sass
+sass:
+  style: compressed
+
+# Exclude build/legacy artifacts
+exclude:
+  - OldSite/
+  - extract_content.py
+  - copy_images.py
+  - "*.pyc"
+  - hts-cache/
+  - hts-log.txt
+  - Scripts/
+  - content/
+  - index.html
+  - undrian_singular_art_furniture_sculpture_poems_songs_movies.html
+  - undrian_singular_art_furniture_sculpture_poems_songs_movies_files/
+  - undrian_bio.html
+  - undrian_bio_files/
+  - sampler.html
+  - sampler_files/
+  - vault_index.html
+  - vault_index_files/
+  - stories_index.html
+  - stories_index_files/
+  - music_index.html
+  - music_index_files/

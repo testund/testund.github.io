@@ -1,0 +1,9 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+*.pyc
+.DS_Store
+.claude/
+content/
+extract_content.py
+copy_images.py
