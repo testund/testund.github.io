@@ -3,7 +3,10 @@ layout: default
 ---
 
 {% assign cat_key = page.category %}
-{% assign all_pieces = site.pieces | where: "category", cat_key %}
+{% assign cat_pieces = site.pieces | where: "category", cat_key %}
+{% assign ordered = cat_pieces | where_exp: "p", "p.order" | sort: "order" %}
+{% assign unordered = cat_pieces | where_exp: "p", "p.order == nil" %}
+{% assign all_pieces = ordered | concat: unordered %}
 
 <div class="page-wrap">
   <div class="page-header">
@@ -17,6 +20,18 @@ layout: default
     <p class="page-subtitle">{{ page.description }}</p>
     {% endif %}
   </div>
+
+  {% if page.cover %}
+  <div class="category-cover">
+    <img src="{{ '/assets/images/' | append: cat_key | append: '/' | append: page.cover | relative_url }}" alt="{{ page.title }}" loading="lazy">
+  </div>
+  {% endif %}
+
+  {% if content != "" %}
+  <div class="category-intro">
+    {{ content }}
+  </div>
+  {% endif %}
 </div>
 
 <div class="site-wrap">

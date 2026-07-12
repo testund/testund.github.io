@@ -2,7 +2,8 @@
 title: "PYLON"
 slug: "pylon"
 category: "break"
-category_name: "Breakage"
+order: 3
+category_name: "Break"
 category_slug: "breakage"
 images: []
 links_to:

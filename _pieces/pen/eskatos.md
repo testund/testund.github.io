@@ -2,7 +2,8 @@
 title: "Eskatos"
 slug: "eskatos"
 category: "pen"
-category_name: "Poems"
+order: 12
+category_name: "The Penal Colony"
 category_slug: "poems"
 images:
   - "logo.jpg"

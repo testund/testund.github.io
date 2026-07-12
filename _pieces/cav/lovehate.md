@@ -2,6 +2,7 @@
 title: "cav lovehate"
 slug: "lovehate"
 category: "cav"
+order: 6
 category_name: "Plato's Cave"
 category_slug: "platons-cave"
 images:

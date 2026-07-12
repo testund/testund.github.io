@@ -2,6 +2,7 @@
 title: "Case"
 slug: "case"
 category: "sta"
+order: 2
 category_name: "Stations"
 category_slug: "stations"
 images:

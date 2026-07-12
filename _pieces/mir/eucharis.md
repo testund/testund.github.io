@@ -2,7 +2,9 @@
 title: "Eucharis"
 slug: "eucharis"
 category: "mir"
-category_name: "Miracles"
+audio: "389541987"
+order: 3
+category_name: "The Secret Miracle"
 category_slug: "miracles"
 images:
   - "eucharis-shapeimage_4.png"

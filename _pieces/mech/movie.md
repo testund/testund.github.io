@@ -2,7 +2,8 @@
 title: "Mechanism (the movie)"
 slug: "movie"
 category: "mech"
-category_name: "Mechanics"
+order: 9
+category_name: "Mechanism"
 category_slug: "mechanics"
 images: []
 links_to:

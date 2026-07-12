@@ -2,7 +2,8 @@
 title: "Penuel"
 slug: "penuel"
 category: "pen"
-category_name: "Poems"
+order: 6
+category_name: "The Penal Colony"
 category_slug: "poems"
 images:
   - "penuel side.jpg"

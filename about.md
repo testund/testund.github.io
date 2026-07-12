@@ -12,6 +12,17 @@ After 25 years, four startups, and dozens of patents, publications, and products
 
 There, instead of leading scores of people in developing computer chips manufactured in the tens of millions, Tim makes singular art furniture, sculpture, poems, songs and movies one by one.
 
+<div class="about-photos">
+  <figure>
+    <img src="{{ '/assets/images/site/studio-exterior.jpg' | relative_url }}" alt="The studio Tim built in his backyard in Atherton, California" loading="lazy">
+    <figcaption>The studio, Atherton, California</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/images/site/studio-interior.jpg' | relative_url }}" alt="Inside Tim's studio" loading="lazy">
+    <figcaption>Inside the studio</figcaption>
+  </figure>
+</div>
+
 ---
 
 [Contact](mailto:libraryofbabel@me.com?subject=undrian.com) &nbsp;·&nbsp; [YouTube](http://www.youtube.com/user/undrian)

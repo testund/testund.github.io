@@ -2,7 +2,8 @@
 title: "Mansions"
 slug: "mansions"
 category: "pen"
-category_name: "Poems"
+order: 9
+category_name: "The Penal Colony"
 category_slug: "poems"
 images:
   - "logo.jpg"

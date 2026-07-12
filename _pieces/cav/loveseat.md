@@ -2,6 +2,7 @@
 title: "cav loveseat"
 slug: "loveseat"
 category: "cav"
+order: 4
 category_name: "Plato's Cave"
 category_slug: "platons-cave"
 images:

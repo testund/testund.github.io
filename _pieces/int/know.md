@@ -2,6 +2,8 @@
 title: "Know"
 slug: "know"
 category: "int"
+audio: "389563356"
+order: 8
 category_name: "Intangibles"
 category_slug: "intangibles"
 images:

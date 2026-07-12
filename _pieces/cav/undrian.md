@@ -2,6 +2,7 @@
 title: "cav undrian"
 slug: "undrian"
 category: "cav"
+order: 8
 category_name: "Plato's Cave"
 category_slug: "platons-cave"
 images:

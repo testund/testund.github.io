@@ -2,7 +2,9 @@
 title: "Hammer"
 slug: "hammer"
 category: "mir"
-category_name: "Miracles"
+audio: "389541963"
+order: 7
+category_name: "The Secret Miracle"
 category_slug: "miracles"
 images:
   - "hammer-shapeimage_4.png"

@@ -2,6 +2,7 @@
 title: "cav stools"
 slug: "stools"
 category: "cav"
+order: 2
 category_name: "Plato's Cave"
 category_slug: "platons-cave"
 images:

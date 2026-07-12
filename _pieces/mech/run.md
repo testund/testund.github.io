@@ -2,7 +2,8 @@
 title: "Run"
 slug: "run"
 category: "mech"
-category_name: "Mechanics"
+order: 1
+category_name: "Mechanism"
 category_slug: "mechanics"
 images:
   - "run.jpg"

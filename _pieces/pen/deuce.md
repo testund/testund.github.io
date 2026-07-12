@@ -2,7 +2,8 @@
 title: "Deuce"
 slug: "deuce"
 category: "pen"
-category_name: "Poems"
+order: 11
+category_name: "The Penal Colony"
 category_slug: "poems"
 images:
   - "deuce sarcophagus.jpg"

@@ -2,6 +2,7 @@
 title: "School Time and Mr Reihus"
 slug: "school"
 category: "sta"
+order: 12
 category_name: "Stations"
 category_slug: "stations"
 images:

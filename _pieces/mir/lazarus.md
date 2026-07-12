@@ -2,7 +2,9 @@
 title: "Lazarus"
 slug: "lazarus"
 category: "mir"
-category_name: "Miracles"
+audio: "389541912"
+order: 5
+category_name: "The Secret Miracle"
 category_slug: "miracles"
 images:
   - "lazarus-shapeimage_4.png"

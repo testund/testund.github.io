@@ -2,6 +2,7 @@
 title: "Carousel"
 slug: "carousel"
 category: "sta"
+order: 6
 category_name: "Stations"
 category_slug: "stations"
 images:

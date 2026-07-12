@@ -2,7 +2,9 @@
 title: "Eremos"
 slug: "eremos"
 category: "mir"
-category_name: "Miracles"
+audio: "389541993"
+order: 4
+category_name: "The Secret Miracle"
 category_slug: "miracles"
 images:
   - "eremos-shapeimage_4.png"

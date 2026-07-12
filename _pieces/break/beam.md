@@ -2,7 +2,8 @@
 title: "Beam"
 slug: "beam"
 category: "break"
-category_name: "Breakage"
+order: 5
+category_name: "Break"
 category_slug: "breakage"
 images: []
 links_to:

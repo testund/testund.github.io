@@ -2,6 +2,7 @@
 title: "Trap"
 slug: "trap"
 category: "sta"
+order: 4
 category_name: "Stations"
 category_slug: "stations"
 images:

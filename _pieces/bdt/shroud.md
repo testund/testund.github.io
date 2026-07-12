@@ -2,6 +2,8 @@
 title: "Shroud"
 slug: "shroud"
 category: "bdt"
+audio: "389514606"
+order: 6
 category_name: "Build Dwell Think"
 category_slug: "build-dwell-think"
 images:

@@ -2,7 +2,8 @@
 title: "Eat"
 slug: "eat"
 category: "mech"
-category_name: "Mechanics"
+order: 7
+category_name: "Mechanism"
 category_slug: "mechanics"
 images:
   - "eat.jpg"

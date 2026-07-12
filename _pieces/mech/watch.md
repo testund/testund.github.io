@@ -2,7 +2,8 @@
 title: "Watch"
 slug: "watch"
 category: "mech"
-category_name: "Mechanics"
+order: 5
+category_name: "Mechanism"
 category_slug: "mechanics"
 images:
   - "watch 4.jpg"

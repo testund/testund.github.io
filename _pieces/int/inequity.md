@@ -2,6 +2,8 @@
 title: "Inequity"
 slug: "inequity"
 category: "int"
+audio: "389568972"
+order: 3
 category_name: "Intangibles"
 category_slug: "intangibles"
 images:

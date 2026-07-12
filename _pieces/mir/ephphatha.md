@@ -2,7 +2,9 @@
 title: "Ephphatha"
 slug: "ephphatha"
 category: "mir"
-category_name: "Miracles"
+audio: "389542017"
+order: 1
+category_name: "The Secret Miracle"
 category_slug: "miracles"
 images:
   - "ephphatha-shapeimage_4.png"

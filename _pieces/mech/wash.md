@@ -2,7 +2,8 @@
 title: "Wash"
 slug: "wash"
 category: "mech"
-category_name: "Mechanics"
+order: 6
+category_name: "Mechanism"
 category_slug: "mechanics"
 images:
   - "wash.jpg"

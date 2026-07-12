@@ -2,7 +2,8 @@
 title: "Sleep"
 slug: "sleep"
 category: "mech"
-category_name: "Mechanics"
+order: 2
+category_name: "Mechanism"
 category_slug: "mechanics"
 images:
   - "sleep.jpg"

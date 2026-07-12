@@ -2,11 +2,16 @@
 title: "Renunciation"
 slug: "renunciation"
 category: "bdt"
+audio: "389514642"
+order: 2
 category_name: "Build Dwell Think"
 category_slug: "build-dwell-think"
 images:
   - "renunciation.jpg"
   - "renunciation hunkypunk.jpg"
+  - "renunciation back.jpg"
+  - "renunciation close up.jpg"
+  - "renunciation right.jpg"
 links_to:
   - "bdt_ladder"
   - "bdt_trinity"

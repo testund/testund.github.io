@@ -2,7 +2,8 @@
 title: "Dagon"
 slug: "dagon"
 category: "pen"
-category_name: "Poems"
+order: 3
+category_name: "The Penal Colony"
 category_slug: "poems"
 images:
   - "dagon eyelevel.jpg"

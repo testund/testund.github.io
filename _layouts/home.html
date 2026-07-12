@@ -15,28 +15,35 @@ layout: default
   <p class="section-title">Works</p>
   <div class="category-grid">
 
-    {% assign categories = "cav,bdt,sta,int,mir,pen,break,mech,surf,pcv,wri" | split: "," %}
-    {% assign cat_labels = "2002–2008,Sculpture,2011 — Sculpture & Film,Songs,Sculpture,Poetry,Sculpture,Film & Object,20 works,New Work,New Work" | split: "," %}
-    {% assign cat_names = "Plato's Cave,Build Dwell Think,Stations,Intangibles,Miracles,Poems,Breakage,Mechanics,Surface,Post-CVA Work,Writing" | split: "," %}
-    {% assign cat_descs = "Singular furniture pieces exploring the Platonic allegory of shadow and form.|Objects exploring architecture, dwelling, and the act of making.|Sculptures and movies marking stations of an imagined life.|Songs with no physical object — pure sound as material.|Pieces exploring miracle, transcendence, and the inexplicable.|Words as material — verse and song lyric.|Works exploring fracture, fault, and the beauty of broken things.|The mechanics of daily life: eat, sleep, work, make, watch, run.|A series of 20 patch works — color and texture as sole subject.|Furniture, objects, and photographs made after a stroke — new hands, new work.|Essays and poems written after a stroke — language as both subject and medium." | split: "|" %}
+    {% assign categories = "cav,bdt,sta,int,mir,pen,break,mech,pcv,wri" | split: "," %}
+    {% assign cat_labels = "2002–2008,Sculpture,Sculpture & Film,Songs,Sculpture,Sculpture,Movies,Automata,New Work,New Work" | split: "," %}
+    {% assign cat_names = "Plato's Cave,Build Dwell Think,Stations,Intangibles,The Secret Miracle,The Penal Colony,Break,Mechanism,Post-CVA Work,Writing" | split: "," %}
+    {% assign cat_descs = "Singular furniture pieces exploring the Platonic allegory of shadow and form.|Objects exploring architecture, dwelling, and the act of making.|Sculptures and movies marking stations of an imagined life.|Songs with no physical object — pure sound as material.|Pieces exploring miracle, transcendence, and the inexplicable.|A dense symbolic narrative in twelve pieces.|Short movies — infomercial breaks for death.|Whirligigs and automata — parallel actions, each endlessly repeated.|Furniture, objects, and photographs made after a stroke — new hands, new work.|Essays and poems written after a stroke — language as both subject and medium." | split: "|" %}
+
+    {% assign cat_covers = "diningroom.jpg,trinity.jpg,stewarts point.jpg,tall tree.jpg,temple panel.jpg,chairifiction.jpg,toronto building.jpg,klamath pieces.jpg,," | split: "," %}
 
     {% for cat in categories %}
       {% assign idx = forloop.index0 %}
-      {% assign cat_pieces = site.pieces | where: "category", cat %}
-      {% assign first_piece = nil %}
       {% assign thumb_src = nil %}
-      {% for p in cat_pieces %}
-        {% if first_piece == nil %}
-          {% for img in p.images %}
-            {% unless img == 'logo.jpg' or img == 'backgroundimage_1.jpg' %}
-              {% if first_piece == nil %}
-                {% assign first_piece = p %}
-                {% assign thumb_src = '/assets/images/' | append: cat | append: '/' | append: img %}
-              {% endif %}
-            {% endunless %}
-          {% endfor %}
-        {% endif %}
-      {% endfor %}
+      {% assign cover = cat_covers[idx] %}
+      {% if cover and cover != "" %}
+        {% assign thumb_src = '/assets/images/' | append: cat | append: '/' | append: cover %}
+      {% else %}
+        {% assign cat_pieces = site.pieces | where: "category", cat %}
+        {% assign first_piece = nil %}
+        {% for p in cat_pieces %}
+          {% if first_piece == nil %}
+            {% for img in p.images %}
+              {% unless img == 'logo.jpg' or img == 'backgroundimage_1.jpg' %}
+                {% if first_piece == nil %}
+                  {% assign first_piece = p %}
+                  {% assign thumb_src = '/assets/images/' | append: cat | append: '/' | append: img %}
+                {% endif %}
+              {% endunless %}
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
 
       <a href="{{ '/works/' | append: cat | append: '/' | relative_url }}" class="category-card">
         {% if thumb_src %}
@@ -59,6 +66,22 @@ layout: default
 
   <p class="section-title">Also</p>
   <div class="category-grid">
+    <a href="{{ '/music/' | relative_url }}" class="category-card">
+      <div class="cat-card-body">
+        <p class="cat-name">Songs & instruments</p>
+        <h3>Music</h3>
+        <p>Songs sung into the work, and instruments built in the studio.</p>
+        <span class="cat-arrow">Listen →</span>
+      </div>
+    </a>
+    <a href="{{ '/stories/' | relative_url }}" class="category-card">
+      <div class="cat-card-body">
+        <p class="cat-name">Prose & tales</p>
+        <h3>Stories</h3>
+        <p>Prose pieces that grew up alongside the sculptures.</p>
+        <span class="cat-arrow">Read →</span>
+      </div>
+    </a>
     <a href="{{ '/about/' | relative_url }}" class="category-card">
       <div class="cat-card-body">
         <p class="cat-name">Tim Van Hook</p>

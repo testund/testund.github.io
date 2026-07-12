@@ -2,6 +2,8 @@
 title: "Miller"
 slug: "miller"
 category: "bdt"
+audio: "389514252"
+order: 7
 category_name: "Build Dwell Think"
 category_slug: "build-dwell-think"
 images:

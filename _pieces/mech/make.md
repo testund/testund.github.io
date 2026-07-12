@@ -2,7 +2,8 @@
 title: "Make"
 slug: "make"
 category: "mech"
-category_name: "Mechanics"
+order: 8
+category_name: "Mechanism"
 category_slug: "mechanics"
 images:
   - "make.jpg"

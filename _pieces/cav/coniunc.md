@@ -2,6 +2,7 @@
 title: "Coniunctio Sextus"
 slug: "coniunc"
 category: "cav"
+order: 5
 category_name: "Plato's Cave"
 category_slug: "platons-cave"
 images:

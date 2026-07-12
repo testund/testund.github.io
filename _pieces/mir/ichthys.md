@@ -2,7 +2,9 @@
 title: "Ichthys"
 slug: "ichthys"
 category: "mir"
-category_name: "Miracles"
+audio: "389541954"
+order: 2
+category_name: "The Secret Miracle"
 category_slug: "miracles"
 images:
   - "ichthys-shapeimage_4.png"

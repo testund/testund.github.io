@@ -2,7 +2,8 @@
 title: "Chairifiction"
 slug: "chairif"
 category: "pen"
-category_name: "Poems"
+order: 1
+category_name: "The Penal Colony"
 category_slug: "poems"
 images:
   - "chairifiction.jpg"

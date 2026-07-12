@@ -2,7 +2,9 @@
 title: "Transfiguration"
 slug: "transfigur"
 category: "mir"
-category_name: "Miracles"
+audio: "389541888"
+order: 8
+category_name: "The Secret Miracle"
 category_slug: "miracles"
 images:
   - "transfigur-shapeimage_4.png"

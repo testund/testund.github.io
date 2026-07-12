@@ -2,7 +2,9 @@
 title: "Temple"
 slug: "temple"
 category: "mir"
-category_name: "Miracles"
+audio: "389542086"
+order: 10
+category_name: "The Secret Miracle"
 category_slug: "miracles"
 images:
   - "temple panel.jpg"

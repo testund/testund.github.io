@@ -2,6 +2,7 @@
 title: "cav hanukiah"
 slug: "hanukiah"
 category: "cav"
+order: 7
 category_name: "Plato's Cave"
 category_slug: "platons-cave"
 images:

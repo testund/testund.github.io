@@ -2,6 +2,7 @@
 title: "cav saulito"
 slug: "saulito"
 category: "cav"
+order: 9
 category_name: "Plato's Cave"
 category_slug: "platons-cave"
 images:

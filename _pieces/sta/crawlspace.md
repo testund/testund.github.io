@@ -2,9 +2,11 @@
 title: "Crawlspace"
 slug: "crawlspace"
 category: "sta"
+order: 11
 category_name: "Stations"
 category_slug: "stations"
 images:
+  - "crawlspace eyeball.jpg"
   - "logo.jpg"
 links_to:
   - "undrian_singular_art_furniture_sculpture_poems_songs_movies"

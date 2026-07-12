@@ -2,7 +2,8 @@
 title: "Fault"
 slug: "fault"
 category: "break"
-category_name: "Breakage"
+order: 6
+category_name: "Break"
 category_slug: "breakage"
 images: []
 links_to:

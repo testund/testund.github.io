@@ -2,9 +2,11 @@
 title: "workshop"
 slug: "workshop"
 category: "sta"
+order: 14
 category_name: "Stations"
 category_slug: "stations"
-images: []
+images:
+  - "workshop gate.jpg"
 links_to:
   - "undrian_singular_art_furniture_sculpture_poems_songs_movies"
   - "sta_carryout"

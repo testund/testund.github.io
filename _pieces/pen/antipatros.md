@@ -2,7 +2,8 @@
 title: "Antipatros"
 slug: "antipatros"
 category: "pen"
-category_name: "Poems"
+order: 10
+category_name: "The Penal Colony"
 category_slug: "poems"
 images:
   - "ap caryatable.jpg"

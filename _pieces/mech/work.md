@@ -2,7 +2,8 @@
 title: "Work"
 slug: "work"
 category: "mech"
-category_name: "Mechanics"
+order: 4
+category_name: "Mechanism"
 category_slug: "mechanics"
 images:
   - "work close.jpg"

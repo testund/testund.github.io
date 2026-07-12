@@ -2,9 +2,11 @@
 title: "Carapace"
 slug: "carapace"
 category: "sta"
+order: 10
 category_name: "Stations"
 category_slug: "stations"
 images:
+  - "carapace box.jpg"
   - "logo.jpg"
 links_to:
   - "undrian_singular_art_furniture_sculpture_poems_songs_movies"

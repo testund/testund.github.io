@@ -2,7 +2,8 @@
 title: "Drink"
 slug: "drink"
 category: "mech"
-category_name: "Mechanics"
+order: 3
+category_name: "Mechanism"
 category_slug: "mechanics"
 images:
   - "drink.jpg"

@@ -2,6 +2,8 @@
 title: "Proscenium"
 slug: "proscenium"
 category: "bdt"
+audio: "389514228"
+order: 5
 category_name: "Build Dwell Think"
 category_slug: "build-dwell-think"
 images:

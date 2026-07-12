@@ -2,7 +2,8 @@
 title: "Aqedah"
 slug: "aqedah"
 category: "pen"
-category_name: "Poems"
+order: 2
+category_name: "The Penal Colony"
 category_slug: "poems"
 images:
   - "aqedah burning.jpg"

@@ -2,6 +2,7 @@
 title: "Flat"
 slug: "flat"
 category: "sta"
+order: 7
 category_name: "Stations"
 category_slug: "stations"
 images:

@@ -2,6 +2,8 @@
 title: "KCKS"
 slug: "kcks"
 category: "int"
+audio: "389570046"
+order: 12
 category_name: "Intangibles"
 category_slug: "intangibles"
 images:

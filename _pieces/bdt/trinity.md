@@ -2,6 +2,8 @@
 title: "Trinity"
 slug: "trinity"
 category: "bdt"
+audio: "389514567"
+order: 1
 category_name: "Build Dwell Think"
 category_slug: "build-dwell-think"
 images:

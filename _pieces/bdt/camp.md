@@ -2,6 +2,8 @@
 title: "Camp"
 slug: "camp"
 category: "bdt"
+audio: "389513238"
+order: 11
 category_name: "Build Dwell Think"
 category_slug: "build-dwell-think"
 images:

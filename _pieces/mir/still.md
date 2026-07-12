@@ -2,7 +2,9 @@
 title: "Still"
 slug: "still"
 category: "mir"
-category_name: "Miracles"
+audio: "389542101"
+order: 9
+category_name: "The Secret Miracle"
 category_slug: "miracles"
 images:
   - "still panel.jpg"

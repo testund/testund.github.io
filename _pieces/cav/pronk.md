@@ -2,6 +2,7 @@
 title: "cav pronk"
 slug: "pronk"
 category: "cav"
+order: 10
 category_name: "Plato's Cave"
 category_slug: "platons-cave"
 images:

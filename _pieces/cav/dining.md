@@ -2,6 +2,7 @@
 title: "cav dining"
 slug: "dining"
 category: "cav"
+order: 1
 category_name: "Plato's Cave"
 category_slug: "platons-cave"
 images:

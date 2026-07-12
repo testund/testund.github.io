@@ -2,7 +2,8 @@
 title: "decalog"
 slug: "decalog"
 category: "pen"
-category_name: "Poems"
+order: 7
+category_name: "The Penal Colony"
 category_slug: "poems"
 images:
   - "decalog side.jpg"

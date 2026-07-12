@@ -2,7 +2,9 @@
 title: "Zaphthani"
 slug: "zaphthani"
 category: "mir"
-category_name: "Miracles"
+audio: "389542044"
+order: 12
+category_name: "The Secret Miracle"
 category_slug: "miracles"
 images:
   - "zaphthani.jpg"

@@ -2,6 +2,8 @@
 title: "Garage"
 slug: "garage"
 category: "bdt"
+audio: "389514306"
+order: 12
 category_name: "Build Dwell Think"
 category_slug: "build-dwell-think"
 images:

@@ -2,6 +2,7 @@
 title: "Locket"
 slug: "locket"
 category: "sta"
+order: 5
 category_name: "Stations"
 category_slug: "stations"
 images:

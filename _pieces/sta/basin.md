@@ -2,6 +2,7 @@
 title: "Basin"
 slug: "basin"
 category: "sta"
+order: 9
 category_name: "Stations"
 category_slug: "stations"
 images:

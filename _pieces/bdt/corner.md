@@ -2,6 +2,8 @@
 title: "Corner"
 slug: "corner"
 category: "bdt"
+audio: "389514006"
+order: 8
 category_name: "Build Dwell Think"
 category_slug: "build-dwell-think"
 images:

@@ -2,6 +2,8 @@
 title: "Travel"
 slug: "travel"
 category: "bdt"
+audio: "389514588"
+order: 9
 category_name: "Build Dwell Think"
 category_slug: "build-dwell-think"
 images:

@@ -2,7 +2,9 @@
 title: "Infirmity"
 slug: "infirmity"
 category: "mir"
-category_name: "Miracles"
+audio: "389541939"
+order: 6
+category_name: "The Secret Miracle"
 category_slug: "miracles"
 images:
   - "infirmity-shapeimage_4.png"

@@ -9,8 +9,10 @@
     {{ content }}
   </main>
   {% include footer.html %}
-  <div class="lightbox-overlay" id="lightbox" onclick="this.classList.remove('open')">
+  <div class="lightbox-overlay" id="lightbox" onclick="closeLightbox(event)">
+    <button class="lightbox-nav lightbox-prev" onclick="lightboxStep(event,-1)" aria-label="Previous">‹</button>
     <img id="lightbox-img" src="" alt="">
+    <button class="lightbox-nav lightbox-next" onclick="lightboxStep(event,1)" aria-label="Next">›</button>
   </div>
   <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 </body>

@@ -2,7 +2,8 @@
 title: "Upharsin"
 slug: "upharsin"
 category: "pen"
-category_name: "Poems"
+order: 4
+category_name: "The Penal Colony"
 category_slug: "poems"
 images:
   - "upharsim madman.jpg"

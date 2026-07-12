@@ -2,6 +2,7 @@
 title: "cav caryatab"
 slug: "caryatab"
 category: "cav"
+order: 3
 category_name: "Plato's Cave"
 category_slug: "platons-cave"
 images:

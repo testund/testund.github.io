@@ -2,6 +2,8 @@
 title: "Ladder"
 slug: "ladder"
 category: "bdt"
+audio: "389514297"
+order: 3
 category_name: "Build Dwell Think"
 category_slug: "build-dwell-think"
 images:

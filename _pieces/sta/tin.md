@@ -2,6 +2,7 @@
 title: "Tin"
 slug: "tin"
 category: "sta"
+order: 8
 category_name: "Stations"
 category_slug: "stations"
 images:

@@ -2,9 +2,11 @@
 title: "Chancel"
 slug: "chancel"
 category: "sta"
+order: 13
 category_name: "Stations"
 category_slug: "stations"
-images: []
+images:
+  - "chancel pulpit.jpg"
 links_to:
   - "undrian_singular_art_furniture_sculpture_poems_songs_movies"
   - "sta_workshop"

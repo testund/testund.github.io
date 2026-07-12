@@ -2,7 +2,8 @@
 title: "Phix"
 slug: "phix"
 category: "pen"
-category_name: "Poems"
+order: 8
+category_name: "The Penal Colony"
 category_slug: "poems"
 images:
   - "phix front.jpg"
