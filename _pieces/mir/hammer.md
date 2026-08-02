@@ -11,6 +11,9 @@ images:
   - "hammer-shapeimage_5.png"
   - "hammer folded.jpg"
   - "hammer fold.jpg"
+  - "hammer opening.jpg"
+  - "hammer box front.jpg"
+  - "hammer cross flat.jpg"
 links_to:
   - "mir_transfigur"
   - "mir_infirmity"

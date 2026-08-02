@@ -22,6 +22,7 @@ extra_images:
   - "crawlspace gun uncover.jpg"
   - "crawlspace melt.jpg"
   - "crawlspace foil face.jpg"
+  - "crawlspace noyd.jpg"
   - "crawlspace-1-shapeimage_4.png"
 videos:
   - "https://player.vimeo.com/video/252809876"

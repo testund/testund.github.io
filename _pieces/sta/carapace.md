@@ -21,6 +21,10 @@ linked_from:
 extra_images:
   - "carapace angel burn.jpg"
   - "carapace venus crush.jpg"
+  - "carapace bury.jpg"
+  - "carapace coins.jpg"
+  - "carapace fetus milk.jpg"
+  - "carapace skull hand.jpg"
   - "carapace-1-shapeimage_4.png"
   - "carapace-1-shapeimage_5.png"
   - "carapace-1-shapeimage_6.png"
